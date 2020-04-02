@@ -15,7 +15,7 @@ export class OverViewComponent implements OnInit {
 
   ngOnInit(): void {
     this.commonService.$behaviourSubject.subscribe((student: Student) =>{
-     this.student = student;
+     this.student = student; 
     });
   }
 
