@@ -1,0 +1,50 @@
+.container{
+  display: flex;
+  .overview {
+    float: right;
+    position: initial;
+    margin-left: 15%;
+    margin-top: -6%;
+  }
+}
+
+
+h3{
+  font-family: Calibri;
+  font-size: 25pt;
+  font-style: normal;
+  font-weight: bold;
+  color:SlateBlue;
+  text-align: left;
+  text-decoration: underline
+}
+
+table{
+  font-family: Calibri;
+  color:white;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align:left;
+  background-color: SlateBlue;
+  border-collapse: collapse;
+  border: 2px solid navy
+}
+table.inner{
+  border: 0px
+}
+
+
+.blinking{
+  animation:blinkingText 2s infinite;
+  color: greenyellow;
+  background-color: SlateBlue;
+}
+@keyframes blinkingText{
+
+  0%{     color: #000;    }
+  49%{    color: #000; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: navy;    }
+}
